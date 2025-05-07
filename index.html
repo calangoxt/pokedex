@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>Pokédex</h1><div id="center">
+  <div id="tela" class="tela"></div></div>  <div class="search">
+    <input type="text" id="pokemonName" placeholder="Digite o nome ou número" />
+    <button id="button" onclick="getPokemon()">Dex</button>
+  <div id="pokemonList" class="grid"></div>
+
+  <div class="pagination">
+    <button class="p2" onclick="prevPage()">Anterior</button>
+    <button class="p1" onclick="nextPage()">Próximo</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
